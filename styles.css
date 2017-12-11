@@ -1,0 +1,96 @@
+﻿body {
+
+}
+div
+{
+border:solid;
+border-color:gray;
+border-width:1px;
+}
+
+.main {
+    width: 750px;
+    height: 660px;
+    background-color: white;
+    border: none;
+}
+
+.lineup {
+    height: 175px;
+    width: 750px;
+    border: none;
+    border-color: white;
+    padding-left: 2px;
+    padding-top: 2px;
+    border-bottom: solid;
+    border-color: white;
+    border-width: thick;
+    margin-bottom:10px;
+}
+
+div.vb {
+    margin-left:125px;
+}
+div.snap-target-spacer {
+    height: 50px;
+    width: 120px;
+    float: left;
+    border:none;
+}
+
+div.snap-target {
+    /*border-radius: 50%;*/
+    width: 247px;
+    height: 77px;
+    background-color: transparent;
+    margin-bottom: 10px;
+    float: left;
+
+}
+
+div.draggable {
+    /*border-radius: 50%;*/
+    width: 245px;
+    height: 75px;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+    background-color: white;
+    float: left;
+    line-height: 75px;
+    border-right: solid;
+    border-right-color: grey;
+    border-right-width: 1px;
+    border-left: solid;
+    border-left-color: grey;
+    border-left-width: 1px;
+}
+
+.lineup-goalkeeper {
+    height: 90px;
+    width: 750px;
+    border: none;
+    border-color: white;
+    padding-left: 2px;
+    padding-top: 2px;
+    border-bottom: solid;
+    border-color: white;
+    border-width: thick;
+}
+
+.goalkeeper {
+    width: 247px;
+    height: 77px;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-left:250px;
+    float: left;
+}
+
+.players {
+    width: 750px;
+    height: 700px;
+    background-color: white;
+    border:none;
+}
+
