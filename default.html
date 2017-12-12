@@ -25,11 +25,31 @@
         });
     </script>
    
+   <script>
+       $(function () {
+           $("#theEagle").click(function () {
+               $("#3rdLine").toggle("slow", function () {
+                   // Animation complete.
+               });
+
+               $(document).ready(function () {
+                   $("#main").toggle(function () {
+                       $(this).animate({ height: 660 }, 100);
+                   }, function () {
+                       $(this).animate({ height: 490 }, 1000);
+                   });
+               });
+
+
+           });
+       });
+   </script>
+    
 </head>
 <body>
 
     <center>
-        <img src="eagle.jpg" width="250px" style="padding:25px; " /><br />
+        <img src="eagle.jpg" id="theEagle" width="250" style="padding:25px;"/><br />
             <div class="main">
                 <div class="lineup">
                         <div class="vf snap-target"></div>
@@ -40,6 +60,14 @@
                     </div>
 
 					<div class="lineup">
+						<div class="vf snap-target"></div>
+						<div class="c snap-target"></div>
+						<div class="hf snap-target"></div>
+						<div class="vb snap-target"></div>
+						<div class="hb snap-target"></div>
+					</div>
+					
+					<div class="lineup" id="3rdLine" style="display:none">
 						<div class="vf snap-target"></div>
 						<div class="c snap-target"></div>
 						<div class="hf snap-target"></div>

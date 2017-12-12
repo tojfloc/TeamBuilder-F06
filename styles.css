@@ -10,8 +10,8 @@ border-width:1px;
 
 .main {
     width: 750px;
-    height: 480px;
-    background-color: white;
+    /*height: 480px;*/
+    background-color: green;
     border: none;
 }
 
